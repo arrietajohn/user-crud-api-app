@@ -33,6 +33,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":domain"))
     implementation(libs.activity.ktx)
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)
