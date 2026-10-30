@@ -33,7 +33,7 @@ local.properties
 # Generated files
 bin/
 gen/
-out/
+# Ignore generated output only at the repository and module roots.
 
 # Gradle files
 .gradle/
@@ -53,7 +53,7 @@ proguard/
 # Android Studio
 /*/build/
 /*/local.properties
-/*/out
+/*/out/
 /*/*/build
 /*/*/production
 captures/
