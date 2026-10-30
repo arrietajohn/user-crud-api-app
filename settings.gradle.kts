@@ -25,3 +25,4 @@ dependencyResolutionManagement {
 rootProject.name = "AppCrudUsers"
 include(":app")
 include(":domain")
+include(":adapter")
